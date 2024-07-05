@@ -1,5 +1,6 @@
+import Popup from "reactjs-popup";
 import "./index.css";
-import Header from "../Header";
+import Headerr from "../Header";
 import Sidebar from "../Sidebar";
 
 const AirportDetails = () => {
@@ -12,7 +13,7 @@ const AirportDetails = () => {
 
   return (
     <div className="airportsComponent">
-      <Header />
+      <Headerr />
       <div className="airportsMain">
         <Sidebar />
         <div className="mainBdy">
@@ -28,7 +29,38 @@ const AirportDetails = () => {
                 </div>
               </div>
             ))}
-            <button className="addBtn">+ Add Terminal</button>
+
+            <Popup
+              trigger={
+                <button className="button addBtn">+ Add Terminal</button>
+              }
+              modal
+              nested
+            >
+              {(close) => (
+                <div className="modal customModel">
+                  <button className="close" onClick={close}>
+                    &times;
+                  </button>
+                  <h2 className="terminaTitle">Terminal Title</h2>
+                  <input className="cusInp" type="text" />
+                  <p>Description</p>
+                  <input className="cusInp" type="text" />
+                  <div className="actions">
+                    <button className="addTerminalBtn">Continue</button>
+                    <button
+                      className="button addTerminalBtn"
+                      onClick={() => {
+                        console.log("modal closed ");
+                        close();
+                      }}
+                    >
+                      close modal
+                    </button>
+                  </div>
+                </div>
+              )}
+            </Popup>
           </div>
           <h3>Services</h3>
           <div className="inps">
