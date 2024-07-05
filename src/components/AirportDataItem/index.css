@@ -1,0 +1,36 @@
+.airportDataItemComponent {
+  display: flex;
+  border: 1px solid lightgray;
+  padding-left: 15px;
+  border-radius: 4px;
+  height: 45px;
+}
+
+.airportName {
+  width: 70%;
+}
+
+.country {
+  width: 15%;
+}
+
+.code {
+  width: 10%;
+  margin-right: 15px;
+}
+
+.noOfTerminals {
+  width: 8%;
+  margin-left: 5px;
+}
+
+.chkbx {
+  margin-right: 12px;
+}
+
+.delIcon {
+  width: 15px;
+  height: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+}

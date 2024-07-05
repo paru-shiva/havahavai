@@ -20,3 +20,43 @@
   border: none;
   cursor: pointer;
 }
+
+.airportsList {
+  padding-left: 0px;
+}
+
+.dataHeadings {
+  display: flex;
+  border-bottom: 2px solid lightgray;
+  border-top: 2px solid lightgray;
+}
+
+.airportNameH {
+  width: 60%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.countryH {
+  width: 12%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.codeH {
+  width: 12%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.noOfTerminalsH {
+  width: 12%;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 0px;
+}
+
+.chkbxTitle {
+  margin-left: 20px;
+  margin-right: 13px;
+}
