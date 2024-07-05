@@ -64,6 +64,9 @@ const AirportDetails = () => {
               type="text"
             />
           </div>
+          <p>Lounge</p>
+          <hr className="hr" />
+          <p>Money Exchange</p>
         </div>
       </div>
     </div>
