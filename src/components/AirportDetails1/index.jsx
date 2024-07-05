@@ -30,7 +30,40 @@ const AirportDetails = () => {
             ))}
             <button className="addBtn">+ Add Terminal</button>
           </div>
-          <p>this comes next</p>
+          <h3>Services</h3>
+          <div className="inps">
+            <div className="inp">
+              <label>Service Name</label>
+              <input
+                placeholder="Lost & Found"
+                className="inputEl inputElStyle "
+                type="text"
+              />
+            </div>
+            <div className="inp">
+              <label>Category</label>
+              <select className="dropdownStyle inputElStyle">
+                <option>option1</option>
+                <option>option2</option>
+              </select>
+            </div>
+            <div className="inp">
+              <label>Sub Category</label>
+              <select className="dropdownStyle inputElStyle">
+                <option>option1</option>
+                <option>option2</option>
+              </select>
+            </div>
+            <button className="saveBtn">Save</button>
+          </div>
+          <div className="inp">
+            <label>Description</label>
+            <input
+              placeholder="Type Here"
+              className="inputEl inputElStyle "
+              type="text"
+            />
+          </div>
         </div>
       </div>
     </div>

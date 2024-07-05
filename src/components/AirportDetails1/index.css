@@ -40,3 +40,42 @@
   padding: 8px 15px;
   margin-left: 20px;
 }
+
+.inputEl {
+  height: 26px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.dropdownStyle {
+  height: 30px;
+  width: 180px;
+}
+
+.inps {
+  display: flex;
+  align-items: center;
+}
+
+.inputElStyle {
+  border-radius: 4px;
+  margin: 8px 0px;
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.saveBtn {
+  padding: 7px 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  outline: none;
+  border: none;
+  margin-left: 20px;
+}
