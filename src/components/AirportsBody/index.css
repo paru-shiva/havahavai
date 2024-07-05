@@ -1,0 +1,22 @@
+.airportBodyComponent {
+  margin: 30px;
+  margin-left: 50px;
+  width: 100%;
+  margin-right: 100px;
+}
+
+.apBodyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.addBtn {
+  padding: 9px 17px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
