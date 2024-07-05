@@ -8,8 +8,7 @@ const AirportDetails3 = () => {
   const [airData] = data.filter((eachItem) => eachItem.id === 3);
 
   const terminals = airData.terminals;
-  const name = data;
-  console.log(name);
+  console.log(terminals);
 
   return (
     <div className="airportsComponent">
@@ -30,8 +29,6 @@ const AirportDetails3 = () => {
           ))}
         </div>
       </div>
-      <h3>Services</h3>
-      <div className="services"></div>
     </div>
   );
 };

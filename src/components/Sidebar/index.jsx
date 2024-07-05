@@ -14,13 +14,13 @@ const Sidebar = () => {
         <img src="../../dashboardIcon.svg" />
       </div>
 
-      <div className="services">
+      <div className="service">
         <p className="servicesHeading">Services</p>
         <p className="airportsBg">Airports</p>
         <p className="vids">Videos</p>
       </div>
 
-      <div className="services">
+      <div className="service">
         <p className="servicesHeading">Others</p>
         <ul className="othersList" type="none">
           {othersList.map((eachItem) => (
