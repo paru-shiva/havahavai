@@ -16,6 +16,10 @@ const AirportBody = () => {
             terminalName: "Terminal 1",
             metaData: "This is meta data of Terminal 1",
           },
+          {
+            terminalName: "Terminal 2",
+            metaData: "This is meta data of Terminal 2",
+          },
         ],
       },
       {
