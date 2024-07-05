@@ -16,17 +16,21 @@ const AirportDetails = () => {
       <div className="airportsMain">
         <Sidebar />
         <div className="mainBdy">
-          {terminals.map((eachItem) => (
-            <div className="df" key={eachItem.terminalName}>
-              <img className="icon" src="../../image.png" />
-              <div className="dfc">
-                <p className="terminalInfo terminalHead">
-                  {eachItem.terminalName}
-                </p>
-                <p className="terminalInfo">{eachItem.metaData}</p>
+          <div className="terminalSection">
+            {terminals.map((eachItem) => (
+              <div className="df" key={eachItem.terminalName}>
+                <img className="icon" src="../../image.png" />
+                <div className="dfc">
+                  <p className="terminalInfo terminalHead">
+                    {eachItem.terminalName}
+                  </p>
+                  <p className="terminalInfo">{eachItem.metaData}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+            <button className="addBtn">+ Add Terminal</button>
+          </div>
+          <p>this comes next</p>
         </div>
       </div>
     </div>

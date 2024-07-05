@@ -6,6 +6,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid lightgray;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .icon {
@@ -25,4 +28,15 @@
 
 .terminalHead {
   font-weight: bold;
+}
+
+.terminalSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBtn {
+  padding: 8px 15px;
+  margin-left: 20px;
 }
