@@ -1,0 +1,50 @@
+.sidebarComponent {
+  width: 16%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 100%;
+  padding: 20px;
+}
+
+.homeOptions {
+  display: flex;
+  align-items: center;
+}
+
+.homeMenu {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.homeButton {
+  color: #4f4d4d;
+  margin-left: 12px;
+}
+
+.services {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.servicesHeading {
+  font-size: 17px;
+}
+
+.airportsBg {
+  background-color: lightgray;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.vids {
+  padding-left: 8px;
+}
+
+.othersList {
+  padding-left: 0px;
+}
+
+.listItem {
+  margin-top: 12px;
+  padding-left: 8px;
+}
