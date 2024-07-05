@@ -1,4 +1,5 @@
 import "./index.css";
+import { Link } from "react-router-dom";
 
 const othersList = ["List 1", "List 2", "List 3"];
 
@@ -8,7 +9,9 @@ const Sidebar = () => {
       <div className="options">
         <div className="homeOptions homeButton">
           <img src="../../homeIcon.svg" />
-          <p className="homeMenu">Home</p>
+          <Link to="/airports/" className="homeMenu">
+            <p>Home</p>
+          </Link>
         </div>
         <div className="homeOptions"></div>
         <img src="../../dashboardIcon.svg" />
